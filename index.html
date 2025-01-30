@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "primary":"rgba(23, 152, 0, 1)",
+              "text":"rgba(17, 17, 17, 1)",
+              "bg-color":"rgba(239, 235, 227, 1)",
+              "card-bg1":"rgba(17, 84, 20, 1)",
+              "card-btn1":"rgba(99, 183, 109, 1)",
+              "card-bg2":"rgba(16, 40, 97, 1)",
+              "card-btn2":"rgba(42, 77, 151, 1)"
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header class="max-w-screen-xl mx-auto">
+      <nav class="lg:p-3 p-1">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+          
+            <a class="btn btn-ghost lg:text-xl">
+              <img class="w-[90%]  " src="./c2-assets/logo-header.png" alt="" />
+             
+            </a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 font-medium">
+              <li><a>Product</a></li>
+              <li><a>Services</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+           
+           <div class="hidden lg:block">
+            <div class=" flex items-center gap-5 text-xl">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-cart-shopping"></i>
+              <div class="space-x-2">
+                <button class="btn btn-outline   px-8 text-lg text-black">Login</button>
+                <button class="btn bg-primary text-white px-8 text-lg ">Register</button>
+              </div>
+            </div>
+           </div>
+           <div class="dropdown ">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden text-primary ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            
+          </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="">
+
+      <div class=" bg-gradient-to-t from-bg-color to-white ">
+        <div class="lg:mt-20 max-w-screen-xl mx-auto">
+          <div class="text-center lg:text-6xl  text-4xl mt-5 p-4 font-medium mb-3 ">
+            Freshness <span class="text-primary">You Can <br>
+              Count</span> On, Prices You’ll Love!
+              
+          </div>
+          <p class="text-text text-center lg:mt-7 mt-2 text-lg w-4/6 mx-auto">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+         
+
+          <!-- hero -->
+        <div class=" mx-auto mb-10">
+          <img  class="w-3/5 mx-auto" src="./c2-assets/hero-vegetables.png"  alt="">
+        </div>
+        
+        </div>
+      </div>
+           
+
+      <div class="max-w-screen-xl mx-auto mt-10 lg:mt-32">
+         <h2 class="text-primary text-3xl font-bold ">Services</h2>  
+
+         <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 mt-6 lg:mt-14 gap-5 p-5 ">
+          <div class="bg-bg-color  text-center space-y-3 p-5 rounded-xl">
+            <img class="mx-auto bg-white rounded-full p-5" src="./c2-assets/service.png" alt="">
+            <p class="text-xl font-medium">24/7 Services </p>
+            <p class="text-text w-4/5 mx-auto" > a food service, an eco-tourism service, or something else? Let me know, and I'll be happy to assist! </p>
+          </div>
+          <div class="bg-bg-color  text-center space-y-3 p-5 rounded-xl">
+            <img class="mx-auto bg-white rounded-full p-5" src="./c2-assets/delivery.png" alt="">
+            <p class="text-xl font-medium">Fast Delivery </p>
+            <p class="text-text w-4/5 mx-auto" >  including honey, herbs, seeds, and nuts. They provide fast delivery services in Dhaka </p>
+          </div>
+          <div class="bg-bg-color  text-center space-y-3 p-5 rounded-xl">
+            <img class="mx-auto bg-white rounded-full p-5" src="./c2-assets/healthy.png" alt="">
+            <p class="text-xl font-medium">24/7 Services </p>
+            <p class="text-text w-4/5 mx-auto" > healthy platter delivery services in Dhaka, here are some options that provide nutritious, organic, and fresh food: </p>
+          </div>
+         </div>
+      </div>
+
+      <div class="bg-bg-color lg:mt-24 mt-10">
+           <div class="max-w-screen-xl mx-auto p-5 ">
+               <div class="text-primary text-2xl font-medium pt-5 lg:pt-16">Popular Products</div>
+               <div class="lg:flex mt-10 gap-5 ">
+                <div class="bg-gradient-to-br from-primary to-white rounded-xl pl-10 pt-10 lg:w-[424px]   ">
+                  <div class="relative">
+                    <div class="pt-5 text-white text-xl font-medium ">30% off</div>
+                  <p>Discover a world of treats, toys, and <br> essentials handpicked for </p>
+                  <button class="mt-4 absolute px-8 font-bold rounded-lg py-3 bg-white ">Buy Now</button>
+                  </div>
+                 <div class="flex justify-end pr-2"> <img  src="./c2-assets/vegetable-offer.png" alt=""></div>
+                </div>
+                <div class="grid grid-cols-2 lg:grid-cols-3">
+                 <div>
+                  <img src="./c2-assets/" alt="">
+                 </div>
+                </div>
+               </div>
+           </div>
+      </div>
+
+
+
+
+      <!-- arrival -->
+
+      <div class="lg:mt-24 max-w-screen-xl mx-auto">
+        <h2 class="text-primary text-3xl font-bold p-5">Arrival & Offers</h2>
+        <div class="lg:flex p-5 gap-3 ">
+          <div class="lg:mt-10 mt-5 bg-card-bg1 p-8 pb-2 rounded-2xl flex items-center justify-between basis-3/5">
+            <div >
+              <img src="./c2-assets/dawat-logo.png" alt="">
+              <a href="" class="px-8 py-3 rounded-lg mt-5 inline-block text-white  bg-card-btn1">Cook Exotic Dishes</a>
+              <h2 class="text-3xl text-white mt-4 font-bold">UP to 20% OFF</h2>
+
+            </div>
+            <div>
+              <img src="./c2-assets/dawat-mock-up.png" alt="">
+            </div>
+
+          </div>
+          <div class="lg:mt-10 mt-5 bg-card-bg2 p-8 pb-2 rounded-2xl flex items-center justify-between flex-1">
+            <div >
+              <img src="./c2-assets/india-gate-logo.png" alt="">
+              <a href="" class="px-4 py-3 rounded-lg mt-5 inline-block text-white  bg-card-btn2">World’s No.1 Rice</a>
+              <h2 class="text-3xl text-white mt-4 font-bold">UP to 40% OFF</h2>
+
+            </div>
+            <div>
+              <img src="./c2-assets/india-gate-mock-up.png" alt="">
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="max-w-screen-xl mx-auto bg-bg-color lg:flex  justify-center lg:gap-32 items-center lg:p-12 m-8 rounded-2xl" >
+        <div>
+          <img class="mx-auto p-5"  src="./c2-assets/vegetable-busket.png" alt="">
+        </div>
+        <div class="space-y-3 text-center">
+          <h2 class="text-3xl font-bold text-primary">Get Grocery News!</h2>
+          <p class="font-bold">Exclusive training tips, ticks, product deals and more.</p>
+          <input type="text"class="bg-white w-[90%] p-5 rounded-lg  mx-auto" placeholder="Enter your Name">
+          <button class="px-5 py-3 bg-primary text-white rounded-lg">Subscribe</button>
+        </div>
+      </div>
+           
+    </main >
+  </body>
+</html>
